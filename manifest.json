@@ -1,0 +1,10 @@
+{
+  "id": "cyber-brain",
+  "name": "Cyber Brain",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "A holographic, rotating cyber-brain view of your vault. Each folder lives in a brain region and links fire as neural signals.",
+  "author": "Abdul Hannan Rauf",
+  "authorUrl": "https://github.com/hannannrf",
+  "isDesktopOnly": false
+}

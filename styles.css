@@ -1,0 +1,70 @@
+.workspace-leaf-content[data-type="cyber-brain-view"] .view-content {
+  padding: 0;
+  overflow: hidden;
+  background: #04050b;
+  display: flex;
+  flex-direction: column;
+}
+
+.cyber-brain-toolbar {
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px;
+  flex: 0 0 auto;
+  background: #04050b;
+  border-bottom: 1px solid rgba(0, 229, 255, 0.15);
+}
+
+.cyber-brain-toolbar button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "JetBrains Mono", Consolas, "Courier New", monospace;
+  font-size: 12px;
+  color: #9ff3ff;
+  background: transparent;
+  border: 1px solid rgba(0, 229, 255, 0.35);
+  border-radius: 4px;
+  padding: 4px 10px;
+  height: auto;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.cyber-brain-toolbar button:hover {
+  background: rgba(0, 229, 255, 0.08);
+  border-color: rgba(0, 229, 255, 0.7);
+}
+
+.cyber-brain-toolbar button:focus-visible {
+  outline: 1px solid #00e5ff;
+  outline-offset: 2px;
+}
+
+.cyber-brain-toolbar button svg {
+  width: 14px;
+  height: 14px;
+}
+
+.cyber-brain-stage {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.cyber-brain-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: crosshair;
+  user-select: none;
+  touch-action: none;
+}
+
+.cyber-brain-canvas.is-dragging {
+  cursor: grabbing;
+}
+
+.cyber-brain-canvas.is-over-node {
+  cursor: pointer;
+}
